@@ -61,7 +61,7 @@
   "dependencies": {
     "express": "^4.17.2",
     "node-sass": "^6.0.1",
-    "postcss": "^8.4.5",
+    "postcss": "^8.4.16",
     "video-worker": "^2.0.0"
   }
 }
