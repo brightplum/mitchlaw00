@@ -44,7 +44,7 @@
     "gulp-sourcemaps": "*",
     "gulp-twig": "*",
     "gulp-uglify": "*",
-    "imagesloaded": "^4.1.4",
+    "imagesloaded": "^5.0.0",
     "jarallax": "^1.12.4",
     "jquery": "^3.4.1",
     "jquery-match-height": "^0.7.2",
