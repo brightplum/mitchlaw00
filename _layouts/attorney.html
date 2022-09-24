@@ -1,35 +1,8 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>PROFI</title>
-
-    <link rel="stylesheet" href="assets/css/vendor.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css">
-</head>
-<body data-spy="scroll" data-target="#header-navbar" data-offset="140">
+---
+layout: default
+---
 
 <div id="page-start-anchor"></div>
-
-<!-- header start -->
-{% set bottomNavbarItems = [
-    {text: 'About', href: '#about', smoothScroll: true},
-    {text: 'Services', href: '#services', smoothScroll: true},
-    {text: 'Team', href: '#team', smoothScroll: true},
-    {text: 'Case results', href: '#cases', smoothScroll: true},
-    {text: 'Testimonials', href: '#testimonials', smoothScroll: true},
-    {text: 'Contacts', href: '#contacts', smoothScroll: true},
-] %}
-{% include 'includes/header.html' with {
-    topNavbarText: true,
-    ctaButton: {text: 'Book now', href: '#contacts', smoothScroll: true},
-    headerClasses: 'header-fixed-xl'
-} %}
-<!-- header end -->
 
 <!-- main hero start -->
 <section class="hero hero-fullscreen jarallax" data-speed="0.2" style="min-height: calc(100vh - 140px)">
@@ -54,29 +27,6 @@
                                 class="material-icons">arrow_downward</i></a>
                     </div>
                 </div>
-
-                <div class="card border-0 text-left" style="max-width: 390px">
-                    <div class="card-body text-body p-19 p-md-20">
-                        <h2 class="fs-6 fs-lg-9">Get a Free Consultation</h2>
-                        <form action="#" method="post">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="First name"/>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Mobile phone"/>
-                            </div>
-                            <div class="form-group form-check fs-2">
-                                <input type="checkbox" class="custom-checkbox" id="exampleCheck1" checked/>
-                                <label class="form-check-label" for="exampleCheck1">
-                                    I've read and agree with the <a href="#">Terms & Policy</a>
-                                </label>
-                            </div>
-                            <div class="form-group mb-0">
-                                <button class="btn btn-primary w-100">Get a consultation</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -97,7 +47,6 @@
                         your team and what services you provide. Tell your visitors the story of how you came up with
                         the idea for your business and what makes you different from your competitors. Make your company
                         stand out and show your visitors who you are.</p>
-                    <a href="#" class="btn btn-lg btn-primary">Get a free consultation</a>
                 </div>
             </div>
             <div class="col-12 col-lg-6">
@@ -226,29 +175,6 @@
     </div>
 </section>
 <!-- "services" section end -->
-
-<!-- "call to action" section start -->
-<section class="section jarallax text-white" data-jarallax data-speed="0.2">
-    <img class="section-background-image jarallax-img" src="assets/images/image-3.jpg" alt="background image"/>
-    <div class="section-content container">
-        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
-            <div class="d-flex flex-column align-items-center align-items-lg-start mb-14 mb-lg-0 mr-0 mr-lg-14">
-                <span class="badge badge-pill badge-ghost fs-1 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption">
-                    24/7 attorney line in nyc
-                </span>
-                <h1 class="mt-5 mb-0 fs-9 fs-md-10">Do you have an emergency?</h1>
-            </div>
-            <a href="#" class="btn btn-lg btn-primary">
-                <span class="fs-4 lh-5 d-flex flex-nowrap align-items-center">
-                    <i class="material-icons material-icons-size-auto text-white-50 mr-1">local_phone</i>
-                    <span class="text-white-50 mr-2">Call</span>
-                    123-456-7890
-                </span>
-            </a>
-        </div>
-    </div>
-</section>
-<!-- "call to action" section end -->
 
 <!-- "team" section start -->
 <section class="section" id="team">
@@ -678,79 +604,3 @@
     </div>
 </section>
 <!-- "contacts" section end -->
-
-<!-- "map" section start -->
-<section class="gmap">
-    <div class="gmap-embed" data-parallax-speed="0">
-        <div class="gmap-embed-sizing-helper" style="padding-top: 650px"></div>
-        <div class="gmap-embed-inner"
-             data-options="{&quot;center&quot;:{&quot;lat&quot;:40.73774180898704,&quot;lng&quot;:-73.96465326476259},&quot;scrollwheel&quot;:false,&quot;zoom&quot;:14,&quot;disableDefaultUI&quot;:true,&quot;draggable&quot;:true}"></div>
-    </div>
-
-    <div class="gmap-infoboxes">
-        <div class="gmap-infobox" data-latlng="40.744978 -73.951145">
-            <div class="gmap-infobox-header">
-                <h1 class="gmap-infobox-label">Long Island Office</h1>
-            </div>
-
-            <div class="gmap-infobox-details">
-                <div class="gmap-infobox-details-item">
-                    47-02 11th St, Long Island City, NY 11101, USA
-                    <div>
-                        <a class="get-direction-link"
-                           href="https://maps.google.com?daddr=47-02+11th+St%2C+Long+Island+City%2C+NY+11101%2C+USA"
-                           target="_blank">Get directions</a></div>
-                </div>
-
-                <div class="gmap-infobox-details-item">
-                    Mon-Fri: 8:00 am - 5:00 pm<br/>
-                    Sat: 8:00 am - 3:00 pm <br/>
-                    Sun: Closed
-                </div>
-
-                <div class="gmap-infobox-details-item">
-                    646-846-8996 <sup>Appointments</sup><br/>
-                    212-355-2379 <sup>Fax</sup><br/>
-                    <a href="mailto:contact@mail.com">contact@mail.com</a></div>
-            </div>
-        </div>
-        <div class="gmap-infobox" data-latlng="40.7323995 -73.9897919">
-            <div class="gmap-infobox-header">
-                <h1 class="gmap-infobox-label">Manhattan Office</h1>
-            </div>
-
-            <div class="gmap-infobox-details">
-                <div class="gmap-infobox-details-item">
-                    100 E 12th St, New York, NY 10003
-                    <div>
-                        <a class="get-direction-link"
-                           href="https://maps.google.com?daddr=100+E+12th+St%2C+New+York%2C+NY+10003" target="_blank">Get
-                            directions</a></div>
-                </div>
-
-                <div class="gmap-infobox-details-item">
-                    Mon-Fri: 8:00 am - 5:00 pm<br/>
-                    Sat: 8:00 am - 3:00 pm <br/>
-                    Sun: Closed
-                </div>
-
-                <div class="gmap-infobox-details-item">
-                    646-846-8996 <sup>Appointments</sup><br/>
-                    212-355-2379 <sup>Fax</sup><br/>
-                    <a href="mailto:contact@mail.com">contact@mail.com</a></div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- "map" section end -->
-
-<!-- footer start -->
-{% include 'includes/footer.html' %}
-<!-- footer end -->
-
-<script src="assets/js/vendor.js"></script>
-<script src="assets/js/polyfills.js"></script>
-<script src="assets/js/app.js"></script>
-
-</body>
-</html>
