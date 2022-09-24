@@ -29,7 +29,7 @@
     "browser-sync": "^2.27.7",
     "calendar": "^0.1.1",
     "del": "^6.0.0",
-    "flickity": "^2.3.0",
+    "flickity": "^3.0.0",
     "font-awesome": "^4.7.0",
     "gulp": "*",
     "gulp-clean-css": "*",
