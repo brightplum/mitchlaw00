@@ -46,7 +46,7 @@
     "gulp-uglify": "*",
     "imagesloaded": "^5.0.0",
     "jarallax": "^2.0.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.6.1",
     "jquery-match-height": "^0.7.2",
     "merge-stream": "^2.0.0",
     "object-fit-images": "^3.2.4",
