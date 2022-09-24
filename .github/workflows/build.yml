@@ -27,5 +27,6 @@ jobs:
       - name: Build Project
         run: npm run build
       - name: Deploy to GitHub Pages
+        if: ${{ github.event_name != 'pull_request' && github.ref_name == 'master' }}
         run: bash build.sh ${GITHUB_SHA::7}
 
