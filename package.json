@@ -24,7 +24,7 @@
     "Opera >= 30"
   ],
   "devDependencies": {
-    "autoprefixer": "^10.4.1",
+    "autoprefixer": "^10.4.12",
     "bootstrap": "^4.5.0",
     "browser-sync": "^2.27.7",
     "calendar": "^0.1.1",
