@@ -59,7 +59,7 @@
     "shufflejs": "^5.2.3"
   },
   "dependencies": {
-    "express": "^4.17.2",
+    "express": "^4.18.1",
     "node-sass": "^6.0.1",
     "postcss": "^8.4.5",
     "video-worker": "^2.0.0"
