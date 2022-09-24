@@ -37,7 +37,7 @@
     "gulp-filter": "*",
     "gulp-htmlmin": "*",
     "gulp-if": "*",
-    "gulp-imagemin": "^7.1.0",
+    "gulp-imagemin": "^8.0.0",
     "gulp-include": "*",
     "gulp-postcss": "*",
     "gulp-sass": "^5.1.0",
