@@ -12,6 +12,7 @@
   .navbar-brand {
     font-family: $font-family-base;
     letter-spacing: 0;
+    white-space: normal;
   }
 
   .navbar-nav {
@@ -53,6 +54,11 @@
 // custom styles for regular navbar with expand option
 @each $breakpoint_name in map-keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint_name) {
+    .navbar {
+      .navbar-brand {
+        white-space: nowrap;  
+      }
+    }
     .navbar-expand#{breakpoint-infix($breakpoint_name)} {
       padding-top: 0;
       padding-bottom: 0;
