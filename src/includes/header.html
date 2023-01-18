@@ -1,36 +1,3 @@
-{# default values are defined here #}
-
-{% if topNavbarItems == undefined %}
-    {% set topNavbarItems = [
-        {text: 'Landings', dropdown: [
-            {text: 'Browse all', href: 'index.html'},
-            {text: 'Massage', href: 'therapist.html'},
-            {text: 'Lawyer', href: 'attorney.html'},
-            {text: 'Contractor', href: 'contractor.html'},
-            {text: 'Beauty', href: 'beauty.html'},
-            {text: 'Restaurant', href: 'restaurant.html'},
-        ]},
-        {text: 'Documentation', dropdown: [
-            {text: 'Introduction', href: 'documentation/getting-started/introduction.html'},
-            {text: 'Build Tools', href: 'documentation/getting-started/build-tools.html'},
-            {text: 'Customizing', href: 'documentation/getting-started/customizing.html'},
-            {text: 'Components', href: 'documentation/components/alerts.html'},
-            {text: 'Plugins', href: 'documentation/plugins/calendar.html'},
-        ]},
-        {text: 'Booking form', href: 'booking.html'}
-    ] %}
-{% endif %}
-
-{% if bottomNavbarItems == undefined %}
-    {% set bottomNavbarItems = [
-        {text: 'Massage', href: 'therapist.html'},
-        {text: 'Lawyer', href: 'attorney.html'},
-        {text: 'Contractor', href: 'contractor.html'},
-        {text: 'Beauty', href: 'beauty.html'},
-        {text: 'Restaurant', href: 'restaurant.html'},
-    ] %}
-{% endif %}
-
 <section class="header {{ headerClasses }}">
     <div class="header-top-line bg-primary">
         <div class="container">
