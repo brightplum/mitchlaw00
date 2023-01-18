@@ -36,26 +36,6 @@
         <div class="container">
             <div class="row">
                 <nav class="navbar navbar-expand navbar-dark navbar-short justify-content-between w-100">
-                    <ul class="navbar-nav">
-                        {% for item in topNavbarItems %}
-                        <li class="nav-item {{ item.dropdown ? 'dropdown dropdown-flat dropdown-flat-primary' : '' }}">
-                            {% if item.dropdown %}
-                            <a class="nav-link text-white dropdown-toggle" href="#" data-toggle="dropdown">
-                                <span class="text-uppercase">{{ item.text }}</span>
-                            </a>
-                            <div class="dropdown-menu">
-                                {% for subitem in item.dropdown %}
-                                <a class="dropdown-item" href="{{ subitem.href }}">{{ subitem.text }}</a>
-                                {% endfor %}
-                            </div>
-                            {% else %}
-                            <a class="nav-link text-white" href="{{ item.href }}">
-                                <span class="text-uppercase">{{ item.text }}</span>
-                            </a>
-                            {% endif %}
-                        </li>
-                        {% endfor %}
-                    </ul>
                     {% if topNavbarText %}
                     <span class="navbar-text text-uppercase d-flex align-items-center">
                         <span class="text-white-70 mr-1">Call us today:</span>
