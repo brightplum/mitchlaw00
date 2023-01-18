@@ -39,15 +39,6 @@
                             </li>
                             {% endfor %}
                         </ul>
-                        {% if ctaButton %}
-                        <div class="navbar-spacer"></div>
-                        <a class="btn btn-outline-primary text-nowrap"
-                           href="{{ ctaButton.href }}"
-                           data-toggle="{{ ctaButton.smoothScroll ? 'smooth-scroll' : 'none' }}"
-                           target="{% if ctaButton.target %}{{ ctaButton.target }}{% else %}_blank{% endif %}">
-                            {{ ctaButton.text }}
-                        </a>
-                        {% endif %}
                     </div>
                 </nav>
             </div>
