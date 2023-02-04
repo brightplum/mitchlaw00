@@ -1,0 +1,27 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Law Office of Gregory T. Mitchell, P.C. | Federal Criminal Defense and Employment Attorney</title>
+
+    <link rel="stylesheet" href="../assets/css/vendor.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome/css/font-awesome.css">
+</head>
+<body data-spy="scroll" data-target="#header-navbar" data-offset="140">
+
+<div id="page-start-anchor"></div>
+
+<!-- header start -->
+{% set bottomNavbarItems = [
+    {text: 'About', href: '/index.html#about', smoothScroll: FALSE},
+    {text: 'Services', href: '/index.html#services', smoothScroll: FALSE},
+    {text: 'Testimonials', href: '/index.html#testimonials', smoothScroll: FALSE},
+    {text: 'Federal Defense', href: '/criminal-defense.html', smoothScroll: FALSE},
+] %}
+{% include 'header.html' with {
+    topNavbarText: true,
+    headerClasses: 'header-fixed-xl'
+} %}
+<!-- header end -->
